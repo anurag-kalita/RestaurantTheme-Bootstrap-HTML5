@@ -1,0 +1,98 @@
+#banner_image {
+    height: 100%;
+    color: #f8f8f8;
+    background: url(img/ras_1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#banner_content {
+    text-align: center;
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 0%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+#bottom{
+    padding-top: 80px;
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 80px;
+}
+
+h3{
+    font-family: 'Exo', sans-serif;
+    font-size: 30px;
+}
+
+h4{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+}
+
+h6{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: #ff6600;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 0px;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #ff6600;
+    border-color: #000000;
+}
+
+.btn .btn-default{
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 0px;
+}
+
+.top{
+    padding-top: 40px;
+    text-align: left;
+    align-content: flex-start;
+    display: inline-block;
+}
+
+a{
+    font-family: 'Exo', sans-serif;
+}
+
+/* Modal */
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 20px 30px;
+  }
+  
+  .modal-footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 32px;
+}
+
+footer a {
+    color: #f5f5f5;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
